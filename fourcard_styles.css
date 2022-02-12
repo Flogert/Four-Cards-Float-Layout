@@ -1,0 +1,74 @@
+* {
+    background-color: lightblue;
+}
+
+.topsection {
+    text-align: center;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+h1, p {
+    color: gray;
+}
+
+section p {
+    background-color: white;
+}
+
+h2 {
+    font-size: 18px;
+    background-color: white;
+}
+
+div h1 + h1 {
+    color: black;
+}
+
+section {
+    width: 200px;
+    height: 150px;
+    float: left;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+img {
+    float: right;
+    background-color: white;
+}
+
+.item1 {
+    position: relative;
+    left: 545px;
+    border-top: 5px solid rgb(189, 2, 2);
+    filter: drop-shadow(2px 2px 5px rgb(133, 133, 133));
+}
+
+.item2 {
+    position: relative;
+    left: 570px;
+    top: 50px;
+    border-top: 5px solid rgb(16, 93, 194);
+    filter: drop-shadow(2px 2px 5px rgb(133, 133, 133));
+}
+
+.item3 {
+    position: relative;
+    left: 145px;
+    top: 170px;
+    border-top: 5px solid rgb(209, 209, 8);
+    filter: drop-shadow(2px 2px 5px rgb(133, 133, 133));
+}
+
+.item4 {
+    position: relative;
+    right: 280px;
+    top: 50px;
+    border-top: 5px solid teal;
+    filter: drop-shadow(2px 2px 5px rgb(133, 133, 133));
+}
+
+
+
+
